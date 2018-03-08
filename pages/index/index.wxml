@@ -1,0 +1,8 @@
+<view class="container">
+  <view>
+    <button type="primary" bind:tap="createPoster">生成海报</button>
+  </view>
+  <view>
+    <canvas canvas-id="my-canvas" style="witdh:{{canvasWitdh}}px;height:{{canvasHeight}}px;"/>
+  </view>
+</view>

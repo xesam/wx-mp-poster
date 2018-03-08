@@ -18,7 +18,6 @@ function DemoPoster(canvasId, canvasWitdh, canvasHeight, nickName, avatarLocalPa
 DemoPoster.prototype = new Poster();
 
 DemoPoster.prototype.onDraw = function (context, onFinish) {
-  
   context.draw(false, () => {
     onFinish && onFinish();
   });
